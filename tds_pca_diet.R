@@ -3,7 +3,7 @@
 # import data
 
 
-df=readRDS("/Users/yyang/data.rds")
+df=readRDS("/data.rds")
 
 df.pca<-prcomp(df[,],scale=T)
 
